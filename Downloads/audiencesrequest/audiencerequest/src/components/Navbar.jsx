@@ -8,6 +8,7 @@ export default function Navbar() {
       <Link to="/tracking" style={styles.link}>Tracking Dashboard</Link>
       <Link to="/admin" style={styles.link}>Client Admin</Link>
       <Link to="/audit-trail" style={styles.link}>Audit Trail</Link>
+      <Link to="/platform-admin" style={styles.link}>Platform Admin</Link>
     </nav>
   );
 }
